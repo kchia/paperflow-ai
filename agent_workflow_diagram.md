@@ -60,7 +60,7 @@ graph TB
     style IC fill:#fff9c4,stroke:#f57f17,stroke-width:2px
 ```
 
----
+## [Agent Workflow Diagram](./agent_workflow_diagram.png)
 
 ## Agent Responsibilities Summary
 
@@ -175,18 +175,18 @@ Orchestrator returns customer-facing response
 
 ## Tool-to-Helper Function Mapping
 
-| Tool Name                        | Agent                     | Purpose                | Helper Functions Used                                     |
-| -------------------------------- | ------------------------- | ---------------------- | --------------------------------------------------------- |
-| `check_stock_level`              | Inventory, Quoting, Sales | Query current stock    | `get_stock_level()`                                       |
-| `list_all_available_items`       | Inventory                 | List all inventory     | `get_all_inventory()`                                     |
-| `check_if_reorder_needed`        | Inventory                 | Validate min stock     | `get_stock_level()`, SQL queries                          |
-| `get_financial_summary`          | Inventory                 | Generate financial report | `generate_financial_report()`                          |
-| `place_supplier_order`           | Inventory                 | Restock inventory      | `create_transaction()`, `get_supplier_delivery_date()`    |
-| `search_similar_quotes`          | Quoting                   | Find past quotes       | `search_quote_history()`                                  |
-| `calculate_price_with_discounts` | Quoting                   | Apply bulk discounts   | SQL queries to inventory                                  |
-| `generate_customer_quote`        | Quoting                   | Create complete quote  | `check_stock_level()`, `calculate_price_with_discounts()` |
-| `validate_order_feasibility`     | Sales                     | Check fulfillment      | `get_stock_level()`                                       |
-| `complete_sale_transaction`      | Sales                     | Execute sale           | `create_transaction()`, `get_cash_balance()`              |
+| Tool Name                        | Agent                     | Purpose                   | Helper Functions Used                                     |
+| -------------------------------- | ------------------------- | ------------------------- | --------------------------------------------------------- |
+| `check_stock_level`              | Inventory, Quoting, Sales | Query current stock       | `get_stock_level()`                                       |
+| `list_all_available_items`       | Inventory                 | List all inventory        | `get_all_inventory()`                                     |
+| `check_if_reorder_needed`        | Inventory                 | Validate min stock        | `get_stock_level()`, SQL queries                          |
+| `get_financial_summary`          | Inventory                 | Generate financial report | `generate_financial_report()`                             |
+| `place_supplier_order`           | Inventory                 | Restock inventory         | `create_transaction()`, `get_supplier_delivery_date()`    |
+| `search_similar_quotes`          | Quoting                   | Find past quotes          | `search_quote_history()`                                  |
+| `calculate_price_with_discounts` | Quoting                   | Apply bulk discounts      | SQL queries to inventory                                  |
+| `generate_customer_quote`        | Quoting                   | Create complete quote     | `check_stock_level()`, `calculate_price_with_discounts()` |
+| `validate_order_feasibility`     | Sales                     | Check fulfillment         | `get_stock_level()`                                       |
+| `complete_sale_transaction`      | Sales                     | Execute sale              | `create_transaction()`, `get_cash_balance()`              |
 
 ---
 
