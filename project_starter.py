@@ -590,30 +590,26 @@ def search_quote_history(search_terms: List[str], limit: int = 5) -> List[Dict]:
 
 
 # Set up and load your env parameters and instantiate your model.
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 """Set up tools for your agents to use, these should be methods that combine the database functions above
  and apply criteria to them to ensure that the flow of the system is correct."""
 
-
-# Tools for inventory agent
-
-
-# Tools for quoting agent
-
-
-# Tools for ordering agent
-
-
-# Set up your agents and create an orchestration agent that will manage them.
+# Tools are defined in paperflow_tools.py (11 tools covering all 7 required functions)
+# Agents are defined in paperflow_agents.py (5 specialized agents + orchestrator)
+# All tools and agents imported from separate modules for better organization
 
 
 # Run your test scenarios by writing them here. Make sure to keep track of them.
 
 def run_test_scenarios():
+    from paperflow_agents import orchestrator
     
     print("Initializing Database...")
-    init_database()
+    init_database(db_engine)
     try:
         quote_requests_sample = pd.read_csv("quote_requests_sample.csv")
         quote_requests_sample["request_date"] = pd.to_datetime(
@@ -625,27 +621,13 @@ def run_test_scenarios():
         print(f"FATAL: Error loading test data: {e}")
         return
 
-    quote_requests_sample = pd.read_csv("quote_requests_sample.csv")
-
-    # Sort by date
-    quote_requests_sample["request_date"] = pd.to_datetime(
-        quote_requests_sample["request_date"]
-    )
-    quote_requests_sample = quote_requests_sample.sort_values("request_date")
-
     # Get initial state
     initial_date = quote_requests_sample["request_date"].min().strftime("%Y-%m-%d")
     report = generate_financial_report(initial_date)
     current_cash = report["cash_balance"]
     current_inventory = report["inventory_value"]
 
-    ############
-    ############
-    ############
-    # INITIALIZE YOUR MULTI AGENT SYSTEM HERE
-    ############
-    ############
-    ############
+    # Multi-agent system already initialized via imports above
 
     results = []
     for idx, row in quote_requests_sample.iterrows():
@@ -657,18 +639,16 @@ def run_test_scenarios():
         print(f"Cash Balance: ${current_cash:.2f}")
         print(f"Inventory Value: ${current_inventory:.2f}")
 
-        # Process request
-        request_with_date = f"{row['request']} (Date of request: {request_date})"
-
-        ############
-        ############
-        ############
-        # USE YOUR MULTI AGENT SYSTEM TO HANDLE THE REQUEST
-        ############
-        ############
-        ############
-
-        # response = call_your_multi_agent_system(request_with_date)
+        # Process request with context
+        context = f"{row['job']} organizing {row['event']}"
+        full_request = f"{row['request']} (Context: {context})"
+        
+        # Call the orchestrator to handle the request
+        try:
+            response = orchestrator.route_request(full_request, request_date)
+        except Exception as e:
+            response = f"Error processing request: {str(e)}"
+            print(f"⚠️  Error during processing: {e}")
 
         # Update state
         report = generate_financial_report(request_date)

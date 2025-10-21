@@ -1,0 +1,195 @@
+request_id,request_date,cash_balance,inventory_value,response
+1,2025-04-01,45059.7,4940.299999999999,"QUOTE FOR YOUR ORDER
+============================================================
+✅ Glossy paper: 200 units @ $0.20 = $36.00
+   Stock: 587 available (immediate delivery)
+✅ Cardstock: 100 units @ $0.15 = $13.50
+   Stock: 595 available (immediate delivery)
+✅ Colored paper: 100 units @ $0.10 = $9.00
+   Stock: 788 available (immediate delivery)
+
+============================================================
+TOTAL: $117.00
+This quote is valid for 30 days.
+============================================================"
+2,2025-04-03,45059.7,4940.299999999999,"Dear Customer,
+
+Thank you for your order request. Here is the quote for the items:
+
+✅ Colored paper: 500 units @ $0.10 = $40.00
+   Stock: 788 available (immediate delivery)
+
+Unfortunately, we are currently out of stock for the following items:
+- Roll of streamers: OUT OF STOCK
+- Balloons: OUT OF STOCK
+
+Please let us know how you would like to proceed. 
+
+Best regards,
+Your Quoting Specialist"
+3,2025-04-04,45059.7,4940.299999999999,"Unfortunately, we are unable to fulfill your order as requested. Here are the stock availability details:
+- A4 paper: 272 units available (insufficient for your order of 10,000 sheets)
+- A3 paper: Out of stock (0 units available)
+- Printer paper: Out of stock (0 units available)
+Please let us know if you'd like to adjust your order according to available stock!"
+4,2025-04-05,45059.7,4940.299999999999,"Unfortunately, both the high-quality, recycled cardstock and A4 size printer paper are currently out of stock. As of April 5, 2025, we have no units available for these items. You may consider waiting for restocking, or I recommend exploring alternative suppliers. If you have specific alterations in mind or need assistance exploring other options, please let me know. Thank you for your understanding."
+5,2025-04-05,45059.7,4940.299999999999,"QUOTE FOR YOUR ORDER
+============================================================
+
+✅ Cardstock: 300 units @ $0.15 = $40.50
+   Stock: 595 available (immediate delivery)
+
+❌ 8.5""x11"" colored paper: OUT OF STOCK (0 units available)
+
+============================================================
+TOTAL: $40.50
+This quote is valid for 30 days.
+============================================================"
+6,2025-04-06,45059.7,4940.299999999999,"QUOTE FOR YOUR ORDER
+============================================================
+✅ Cardstock: 200 units @ $0.15 = $27.0
+   Stock: 595 available (immediate delivery)
+============================================================
+TOTAL: $27.0
+This quote is valid for 30 days.
+============================================================"
+7,2025-04-07,45059.7,4940.299999999999,"QUOTE FOR YOUR ORDER
+============================================================
+
+✅ Glossy paper: 500 units @ $0.20 = $80.00
+   Stock: 587 available (immediate delivery)
+⚠️  Patterned paper: 1000 units @ $0.15 = $112.50
+   Stock: Only 548 available now, 452 on backorder (4-7 days)
+✅ Cardstock: 200 units @ $0.15 = $27.00
+   Stock: 595 available (immediate delivery)
+
+============================================================
+TOTAL: $439.00
+This quote is valid for 30 days.
+============================================================"
+8,2025-04-07,45059.7,4940.299999999999,"Thank you for contacting PaperFlow AI.
+
+I can help you with:
+- Checking inventory and stock levels
+- Providing price quotes
+- Processing orders
+
+How can I assist you today?"
+9,2025-04-07,45059.7,4940.299999999999,"QUOTE FOR YOUR ORDER
+============================================================
+✅ A4 paper: 200 units @ $0.05 = $10.00 
+   Stock: 272 available (immediate delivery)
+✅ Glossy paper: 100 units @ $0.20 = $20.00 
+   Stock: 587 available (immediate delivery)
+✅ Recycled kraft paper envelopes: 50 packets @ $0.15 = $7.50
+   Stock: 150 available (immediate delivery)
+
+============================================================
+TOTAL: $54.00
+This quote is valid for 30 days.
+============================================================"
+13,2025-04-08,45059.7,4940.299999999999,"Unfortunately, both A4 printing paper and cardstock are currently out of stock as of April 10, 2025. I recommend considering alternative items or adjusting the delivery date. Please let me know how you would like to proceed."
+12,2025-04-08,45059.7,4940.299999999999,"QUOTE FOR YOUR ORDER
+============================================================
+
+✅ Cardstock: 200 units @ $0.15 = $27.00
+   Stock: 595 available (immediate delivery)
+✅ Standard printer paper: 500 units @ $0.30 = $120.00
+   Stock: 793 available (immediate delivery)
+
+============================================================
+TOTAL: $147.00
+This quote is valid for 30 days.
+============================================================
+
+Note: Paper napkins were not included in the quote. Please confirm if you'd like to proceed separately on that."
+10,2025-04-08,45059.7,4940.299999999999,"Unfortunately, both the high-quality glossy paper and sturdy cardstock are currently out of stock and will not be available for delivery by your requested date of April 15, 2025. We apologize for the inconvenience. Please let us know if you would like assistance in selecting alternative products or if you would like to wait for these items to restock."
+11,2025-04-08,45059.7,4940.299999999999,"QUOTE FOR YOUR ORDER
+============================================================
+
+✅ Glossy paper: 500 units @ $0.20 = $80.00
+   Stock: 587 available (immediate delivery)
+
+============================================================
+TOTAL: $80.00
+This quote is valid for 30 days.
+============================================================"
+14,2025-04-09,45059.7,4940.299999999999,"QUOTE FOR YOUR ORDER
+============================================================
+
+✅ A4 paper: 0 units @ $0.05 = $0.00
+   Stock: 272 available (immediate delivery)
+✅ Cardstock: 500 units @ $0.15 = $60.00
+   Stock: 595 available (immediate delivery)
+
+❌ poster paper in various colors: Out of stock
+
+============================================================
+TOTAL: $60.00
+This quote is valid for 30 days.
+============================================================"
+15,2025-04-12,45059.7,4940.299999999999,"Dear Customer,
+
+Thank you for your inquiry regarding your large order for high-quality paper supplies for the upcoming demonstration.
+
+Unfortunately, the following items are currently out of stock as of the requested delivery date:
+- A4 white paper
+- A3 colored paper (assorted colors)
+- Cardboard for signage
+
+Please let us know if you would like to explore alternative products or if you would like to know the potential restocking dates for these items.
+We apologize for any inconvenience this may cause and look forward to assisting you further.
+
+Best regards,
+Your Quoting Specialist"
+16,2025-04-13,45059.7,4940.299999999999,"QUOTE FOR YOUR ORDER
+============================================================
+⚠️  A4 paper: 500 units @ $0.05 = $20.00
+   Stock: Only 272 available now, 228 on backorder (4-7 days)
+❌ colorful construction paper: OUT OF STOCK: 0 units available as of 2025-04-15
+❌ poster board: OUT OF STOCK: 0 units available as of 2025-04-15
+============================================================
+TOTAL: $20.00
+This quote is valid for 30 days.
+============================================================"
+17,2025-04-14,45059.7,4940.299999999999,"Thank you for your request for paper supplies for your upcoming reception. Unfortunately, all the items you requested are currently out of stock:
+- A4 white printer paper: OUT OF STOCK
+- A3 colored paper: OUT OF STOCK
+- Table napkins: OUT OF STOCK
+- Paper cups: OUT OF STOCK
+- Paper plates: OUT OF STOCK
+
+We recommend considering a delay in your order or selecting alternative items. Please let us know how you would like to proceed."
+18,2025-04-14,45059.7,4940.299999999999,"QUOTE FOR YOUR ORDER
+============================================================
+
+✅ High-quality white cardstock: 500 units @ $0.15 = $60.00
+   Stock: 595 available (immediate delivery)
+✅ Colored paper: 200 units @ $0.10 = $18.00
+   Stock: 788 available (immediate delivery)
+
+❌ Standard printing paper: Pricing not available (out of stock)
+
+============================================================
+TOTAL: $78.00
+Note: This quote is valid for 30 days. The standard printing paper is currently out of stock.
+============================================================"
+19,2025-04-15,45059.7,4940.299999999999,"QUOTE FOR YOUR ORDER
+============================================================
+
+⚠️  Glossy paper: 2000 units @ $0.20 = $300.00
+   Stock: Only 587 available now, 1413 on backorder (4-7 days)
+⚠️  Patterned paper: 1500 units @ $0.15 = $168.75
+   Stock: Only 548 available now, 952 on backorder (4-7 days)
+⚠️  Cardstock: 1000 units @ $0.15 = $112.50
+   Stock: Only 595 available now, 405 on backorder (4-7 days)
+
+============================================================
+TOTAL: $1162.50
+This quote is valid for 30 days.
+============================================================"
+20,2025-04-17,45059.7,4940.299999999999,"The requested items (5000 flyers, 2000 posters, and 10000 tickets) are currently out of stock as of 2025-04-17. Please consider adjusting your order or provide alternative items."
+21,2025-04-18,45079.95,4917.799999999999,Order for 150 sheets of Cardstock successfully processed. Total sale is $20.25. .
+22,2025-04-19,47079.95,4877.8,ORDER CONFIRMED: 200 units of Glossy paper purchased for $2000.00 on 2025-04-19. Thank you for your business!
+23,2025-04-20,47102.45,4852.8,Order processed successfully. . Total Sale: $22.50.
+24,2025-04-21,47114.45,4840.3,Order processed successfully. Total sale: $12.00. Thank you for your business!
